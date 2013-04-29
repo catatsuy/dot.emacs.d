@@ -14,6 +14,7 @@
 ;;     scss-mode
 ;;     haskell-mode
 ;;     google-c-style
+;;     yaml-mode
 ;;     open-junk-file
 ;;     ))
 
