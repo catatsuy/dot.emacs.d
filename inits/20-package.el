@@ -3,27 +3,27 @@
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
 
-;; (require 'cl)
+(require 'cl)
 
-;; (defvar installing-package-list
-;;   '(
-;;     ;; ここに使っているパッケージを書く。
-;;     php-mode
-;;     scala-mode
-;;     markdown-mode
-;;     scss-mode
-;;     haskell-mode
-;;     ruby-block
-;;     google-c-style
-;;     yaml-mode
-;;     open-junk-file
-;;     recentf-ext
-;;     ))
+(defvar installing-package-list
+  '(
+    ;; ここに使っているパッケージを書く。
+    php-mode
+    scala-mode
+    markdown-mode
+    scss-mode
+    haskell-mode
+    ruby-block
+    google-c-style
+    yaml-mode
+    open-junk-file
+    recentf-ext
+    ))
 
-;; (let ((not-installed (loop for x in installing-package-list
-;;                             when (not (package-installed-p x))
-;;                             collect x)))
-;;   (when not-installed
-;;     (package-refresh-contents)
-;;     (dolist (pkg not-installed)
-;;         (package-install pkg))))
+(let ((not-installed (loop for x in installing-package-list
+                            when (not (package-installed-p x))
+                            collect x)))
+  (when not-installed
+    (package-refresh-contents)
+    (dolist (pkg not-installed)
+        (package-install pkg))))
