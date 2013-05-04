@@ -11,12 +11,6 @@
 ;; シンボリックリンクを開くときの質問省略
 (setq vc-follow-symlinks t)
 
-;; バックアップファイルを作らない
-(setq backup-inhibited t)
-
-;; .#* とかのバックアップファイルを作らない
-(setq auto-save-default nil)
-
 ;; linum-mode をいじって Emacs を高速化
 (setq linum-delay t)
 (defadvice linum-schedule (around my-linum-schedule () activate)
