@@ -13,6 +13,7 @@
 ;;     markdown-mode
 ;;     scss-mode
 ;;     haskell-mode
+;;     ruby-block
 ;;     google-c-style
 ;;     yaml-mode
 ;;     open-junk-file
