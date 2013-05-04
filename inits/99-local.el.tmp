@@ -1,0 +1,2 @@
+;; window 設定
+(setq initial-frame-alist '((width . 100) (height . 40) (top . 0) (left . 0)))
