@@ -16,6 +16,7 @@
     ruby-block
     google-c-style
     yaml-mode
+    migemo
     open-junk-file
     recentf-ext
     ))
