@@ -16,6 +16,7 @@ elisp を追加したい時は `site-lisp` に突っ込むか `package.el` で�
 入れられないものは手動で入れる
 
 * [YaTeX](http://www.yatex.org/)
+* [Typescript](http://blogs.msdn.com/b/interoperability/archive/2012/10/01/sublime-text-vi-emacs-typescript-enabled.aspx)
 * [ibus.el](http://www11.atwiki.jp/s-irie/pages/21.html) （Linux 環境のみ）
 
 どちらも Ubuntu なら `apt-get` で入れられるが `site-lisp` に入れるだけなので大して変わらない

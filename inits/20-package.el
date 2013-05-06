@@ -13,6 +13,7 @@
     markdown-mode
     scss-mode
     haskell-mode
+    js2-mode
     ruby-block
     google-c-style
     yaml-mode
