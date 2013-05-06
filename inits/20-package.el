@@ -21,6 +21,7 @@
     flymake-php
     flymake-ruby
     rbenv
+    yasnippet
     migemo
     open-junk-file
     recentf-ext
