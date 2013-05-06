@@ -17,6 +17,10 @@
     ruby-block
     google-c-style
     yaml-mode
+    flymake-easy
+    flymake-php
+    flymake-ruby
+    rbenv
     migemo
     open-junk-file
     recentf-ext
