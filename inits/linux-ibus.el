@@ -9,7 +9,7 @@
 (ibus-define-common-key ?\C-j t)
 
 ;; isearch 時はオフに
-(ibus-disable-isearch)
+(add-hook 'isearch-mode-hook 'ibus-disable)
 
 ;; カーソルの位置に予測候補を表示
 (setq ibus-prediction-window-position t)
