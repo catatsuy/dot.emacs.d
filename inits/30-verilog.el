@@ -16,8 +16,3 @@
       verilog-minimum-comment-distance 40
       verilog-indent-begin-after-if    t
       verilog-auto-lineup              '())
-
-(add-hook 'verilog-mode-hook
-        '(lambda ()
-           (add-hook 'local-write-file-hooks
-                   (lambda() (untabify (point-min) (point-max))))))
