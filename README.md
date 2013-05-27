@@ -5,8 +5,6 @@
 
     git clone git://github.com/catatsuy/dot.emacs.d.git .emacs.d
 
-外部パッケージが必要なので初回は `inits/20-package.el` のコメントアウトを外す
-
 elisp を追加したい時は `site-lisp` に突っ込むか `package.el` で入れる
 
 `package.el` で入れられるものは必ずこちらでいれて `inits/20-package.el` に書いておく
