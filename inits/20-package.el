@@ -22,6 +22,7 @@
     flymake-ruby
     rbenv
     yasnippet
+    dropdown-list
     migemo
     open-junk-file
     recentf-ext
