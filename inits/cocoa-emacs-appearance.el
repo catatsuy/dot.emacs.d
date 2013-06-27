@@ -4,3 +4,5 @@
                   'japanese-jisx0208
                   '("ヒラギノ角ゴ Pro W3" . "unicode-bmp")
                   )
+
+(add-to-list 'default-frame-alist '(alpha . (0.85 0.85)))
