@@ -20,6 +20,6 @@
 (setq YaTeX-hilit-sectioning-attenuation-rate '(0 0))
 
 ;; flyspell-mode 起動
-(add-hook 'yatex-mode-hook 'flyspell-mode)
-(custom-set-variables
-'(flyspell-auto-correct-binding [(control ?\:)]))
+;; (add-hook 'yatex-mode-hook 'flyspell-mode)
+;; (custom-set-variables
+;; '(flyspell-auto-correct-binding [(control ?\:)]))
