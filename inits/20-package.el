@@ -29,7 +29,6 @@
     popwin
     google-translate
     auto-complete
-    zlc
     ))
 
 (let ((not-installed (loop for x in installing-package-list
