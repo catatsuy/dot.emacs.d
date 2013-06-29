@@ -25,3 +25,4 @@
   (other-window 1))
 
 (global-set-key (kbd "C-z") 'other-window-or-split)
+(define-key global-map (kbd "C-S-z") 'previous-multiframe-window)
