@@ -29,6 +29,7 @@
     popwin
     google-translate
     auto-complete
+    foreign-regexp
     ))
 
 (let ((not-installed (loop for x in installing-package-list
