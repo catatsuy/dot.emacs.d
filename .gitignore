@@ -3,3 +3,4 @@ elpa/*
 url/*
 session.*
 ac-comphist.dat
+tramp
