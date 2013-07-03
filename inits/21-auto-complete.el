@@ -1,4 +1,8 @@
 (require 'auto-complete)
+
+;; 辞書追加
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+
 (require 'auto-complete-config)
 
 (ac-config-default)
