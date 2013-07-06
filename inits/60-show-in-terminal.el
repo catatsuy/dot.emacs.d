@@ -1,1 +1,1 @@
-(define-key global-map (kbd "C-S-T") 'show-in-terminal)
+(global-set-key "\C-T" 'show-in-terminal)
