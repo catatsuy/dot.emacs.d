@@ -21,6 +21,7 @@
     flymake-php
     flymake-ruby
     rbenv
+    plenv
     yasnippet
     dropdown-list
     migemo
