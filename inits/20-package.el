@@ -31,7 +31,6 @@
     google-translate
     auto-complete
     foreign-regexp
-    exec-path-from-shell
     ))
 
 (let ((not-installed (loop for x in installing-package-list
