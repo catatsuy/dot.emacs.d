@@ -32,6 +32,7 @@
     auto-complete
     foreign-regexp
     emmet-mode
+    multi-web-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
