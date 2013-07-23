@@ -20,6 +20,7 @@
 
 ;; あるモードでも動くように
 (add-to-list 'ac-modes 'yatex-mode)
+(add-to-list 'ac-modes 'markdown-mode)
 
 ;; flyspell-mode で補完できない
 (ac-flyspell-workaround)
