@@ -15,6 +15,7 @@
     haskell-mode
     js2-mode
     ruby-block
+    ruby-end
     google-c-style
     yaml-mode
     flymake-easy
