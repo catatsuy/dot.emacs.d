@@ -1,5 +1,7 @@
 (require 'ibus)
 (add-hook 'after-init-hook 'ibus-mode-on)
+
+;; C-SPC は Set Mark に使う
 (ibus-define-common-key ?\C-\s nil)
 
 ;; IBusの状態によってカーソル色を変化させる
@@ -19,3 +21,6 @@
 
 ;; Undo の時に確定した位置まで戻る
 (setq ibus-undo-by-committed-string t)
+
+;; インクリメンタル検索中のカーソル形状を変更する
+(setq ibus-isearch-cursor-type 'hollow)
