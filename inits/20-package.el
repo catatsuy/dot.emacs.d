@@ -35,6 +35,7 @@
     emmet-mode
     multi-web-mode
     auto-highlight-symbol
+    slim-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
