@@ -34,6 +34,7 @@
     foreign-regexp
     emmet-mode
     multi-web-mode
+    auto-highlight-symbol
     ))
 
 (let ((not-installed (loop for x in installing-package-list
