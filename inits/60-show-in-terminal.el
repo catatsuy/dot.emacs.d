@@ -1,1 +1,1 @@
-(global-set-key "\C-T" 'show-in-terminal)
+(global-set-key (kbd "C-S-t") 'show-in-terminal)
