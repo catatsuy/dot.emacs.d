@@ -36,6 +36,7 @@
     multi-web-mode
     auto-highlight-symbol
     slim-mode
+    apache-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
