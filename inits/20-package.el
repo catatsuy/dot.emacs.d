@@ -37,6 +37,7 @@
     auto-highlight-symbol
     slim-mode
     apache-mode
+    tangotango-theme
     ))
 
 (let ((not-installed (loop for x in installing-package-list

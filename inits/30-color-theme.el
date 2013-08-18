@@ -1,0 +1,1 @@
+(load-theme 'tangotango t)
