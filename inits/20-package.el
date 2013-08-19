@@ -38,6 +38,7 @@
     slim-mode
     apache-mode
     tangotango-theme
+    ssh-config
     ))
 
 (let ((not-installed (loop for x in installing-package-list
