@@ -39,6 +39,7 @@
     apache-mode
     tangotango-theme
     ssh-config
+    smarty-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
