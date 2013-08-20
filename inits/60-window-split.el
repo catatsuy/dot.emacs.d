@@ -19,7 +19,7 @@
 (defun other-window-or-split ()
   (interactive)
   (when (one-window-p)
-    (if (>= (window-body-width) 230)
+    (if (>= (window-body-width) 270)
         (split-window-horizontally-n 3)
       (split-window-horizontally)))
   (other-window 1))
