@@ -19,7 +19,6 @@
     google-c-style
     yaml-mode
     flymake-easy
-    flymake-php
     flymake-ruby
     rbenv
     plenv
