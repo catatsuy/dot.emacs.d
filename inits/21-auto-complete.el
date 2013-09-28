@@ -15,12 +15,25 @@
 (setq ac-auto-show-menu 0.05)  ;; n秒後に補完メニューを表示
 (setq ac-quick-help-delay 0.5)  ;; n秒後にクイックヘルプを表示
 
+(setq-default ac-sources '(ac-source-words-in-same-mode-buffers))
+
+;; emacs-lisp の設定
+(add-hook 'emacs-lisp-mode-hook (lambda () (add-to-list
+                                       'ac-sources
+                                       'ac-source-symbols t)))
+
+;; ruby-mode の設定
+(add-hook 'ruby-mode-hook (lambda () (add-to-list
+                                 'ac-sources
+                                 'ac-source-abbrev)))
+
 ;; 最適化無効でメニュー表示崩れ回避
 (setq popup-use-optimized-column-computation nil)
 
 ;; あるモードでも動くように
 (add-to-list 'ac-modes 'yatex-mode)
 (add-to-list 'ac-modes 'markdown-mode)
+(add-to-list 'ac-modes 'js2-mode)
 
 ;; flyspell-mode で補完できない
 (ac-flyspell-workaround)
