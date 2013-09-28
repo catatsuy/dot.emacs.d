@@ -9,7 +9,7 @@
   '(
     ;; ここに使っているパッケージを書く。
     php-mode
-    scala-mode
+    scala-mode2
     markdown-mode
     scss-mode
     haskell-mode
