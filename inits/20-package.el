@@ -38,6 +38,7 @@
     tangotango-theme
     ssh-config
     smarty-mode
+    go-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
