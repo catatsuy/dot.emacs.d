@@ -19,6 +19,7 @@
     yaml-mode
     flymake-easy
     flymake-ruby
+    exec-path-from-shell
     yasnippet
     dropdown-list
     migemo
