@@ -19,8 +19,6 @@
     yaml-mode
     flymake-easy
     flymake-ruby
-    rbenv
-    plenv
     yasnippet
     dropdown-list
     migemo
