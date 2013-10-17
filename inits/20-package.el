@@ -35,7 +35,7 @@
     slim-mode
     apache-mode
     tangotango-theme
-    ssh-config
+    ssh-config-mode
     smarty-mode
     go-mode
     ))
