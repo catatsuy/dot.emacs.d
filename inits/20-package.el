@@ -38,6 +38,7 @@
     ssh-config-mode
     smarty-mode
     go-mode
+    go-autocomplete
     ))
 
 (let ((not-installed (loop for x in installing-package-list
