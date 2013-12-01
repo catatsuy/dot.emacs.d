@@ -38,6 +38,7 @@
     ssh-config-mode
     smarty-mode
     paredit
+    anzu
     go-mode
     go-autocomplete
     ))
