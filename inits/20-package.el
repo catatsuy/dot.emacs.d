@@ -37,6 +37,7 @@
     tangotango-theme
     ssh-config-mode
     smarty-mode
+    paredit
     go-mode
     go-autocomplete
     ))
