@@ -7,3 +7,13 @@
         (tab-mark   ?\t   [?\xBB ?\t])
         ))
 (global-whitespace-mode t)
+
+(set-face-attribute 'whitespace-trailing nil
+                    :foreground "DeepPink"
+                    :underline t)
+(set-face-attribute 'whitespace-tab nil
+                    :foreground "LightSkyBlue"
+                    :underline t)
+(set-face-attribute 'whitespace-space nil
+                    :foreground "GreenYellow"
+                    :weight 'bold)
