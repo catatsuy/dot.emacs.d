@@ -6,7 +6,3 @@
 
 ;; カーソルの位置が何行目かを表示する
 (line-number-mode t)
-
-;; カーソルの場所を保存する
-(require 'saveplace)
-(setq-default save-place t)
