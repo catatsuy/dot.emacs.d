@@ -4,7 +4,7 @@
                              ;; Don't want flymake mode for ruby regions in rhtml files
                              (if (not (null buffer-file-name)) (flymake-mode))
                              ;; エラー行で C-c d するとエラーの内容をミニバッファで表示する
-                             (define-key ruby-mode-map "\C-cd" 'credmp/flymake-display-err-minibuf)))
+                             (define-key ruby-mode-map (kbd "C-c d") 'credmp/flymake-display-err-minibuf)))
 
 ;; エラー内容を mini buffer で表示する
 ;; cf: http://d.hatena.ne.jp/gan2/20080702/1214972962
