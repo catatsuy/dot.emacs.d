@@ -7,7 +7,7 @@
 
 elisp を追加したい時は `site-lisp` に突っ込むか `package.el` で入れる
 
-`package.el` で入れられるものは必ずこちらでいれて `inits/20-package.el` に書いておく
+`package.el` で入れられるものは必ずこちらでいれて `init.el` に書いておく
 
 `M-x package-list-packages` とやると一覧が見れて `i` で選択， `x` を押すとインストールできる
 
@@ -22,5 +22,3 @@ elisp を追加したい時は `site-lisp` に突っ込むか `package.el` で�
 機能を追加したい時は適当に番号を付けて inits ディレクトリ以下に追加する
 
 環境依存のものも追加できる
-
-`site-lisp/init-loader.el` を確認すること
