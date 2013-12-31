@@ -32,6 +32,7 @@
     emmet-mode
     multi-web-mode
     auto-highlight-symbol
+    highlight-symbol
     slim-mode
     apache-mode
     tangotango-theme
