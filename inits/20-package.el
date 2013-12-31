@@ -41,6 +41,9 @@
     paredit
     go-mode
     go-autocomplete
+    smartrep
+    expand-region
+    multiple-cursors
     ))
 
 (let ((not-installed (loop for x in installing-package-list
