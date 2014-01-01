@@ -16,8 +16,15 @@
 (global-set-key (kbd "C-M-,") 'er/contract-region)
 
 ;; highlight-symbol
-(global-set-key (kbd "C-c h") 'highlight-symbol-at-point)
-(global-set-key (kbd "C-c r") 'highlight-symbol-remove-all)
+(global-unset-key (kbd "M-q"))
+(smartrep-define-key
+    global-map "M-q" '(("M-q" . 'highlight-symbol-next)
+                       ("h"   . 'highlight-symbol-at-point)
+                       ("n"   . 'highlight-symbol-next)
+                       ("p"   . 'highlight-symbol-prev)
+                       ("o"   . 'highlight-symbol-occur)
+                       ("d"   . 'highlight-symbol-remove-all)
+                       ("r"   . 'highlight-symbol-query-replace)))
 
 ;; multiple-cursors
 (global-set-key (kbd "<C-M-return>") 'mc/edit-lines)
