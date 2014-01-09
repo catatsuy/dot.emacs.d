@@ -51,6 +51,7 @@
     smartrep
     expand-region
     multiple-cursors
+    jade-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
