@@ -26,6 +26,7 @@
     yaml-mode
     flymake-easy
     flymake-ruby
+    flymake-jslint
     exec-path-from-shell
     yasnippet
     dropdown-list
