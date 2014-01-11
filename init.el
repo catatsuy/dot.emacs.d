@@ -53,6 +53,7 @@
     expand-region
     multiple-cursors
     jade-mode
+    coffee-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
