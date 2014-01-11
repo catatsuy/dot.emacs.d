@@ -1,4 +1,3 @@
-(require 'flymake-ruby)
 (add-hook 'ruby-mode-hook 'flymake-ruby-load)
 (add-hook 'ruby-mode-hook '(lambda ()
                              ;; Don't want flymake mode for ruby regions in rhtml files
