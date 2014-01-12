@@ -15,8 +15,3 @@
 (define-key yas-minor-mode-map (kbd "C-x y n") 'yas-new-snippet)
 ;; 既存スニペットを閲覧・編集する
 (define-key yas-minor-mode-map (kbd "C-x y v") 'yas-visit-snippet-file)
-
-(require 'dropdown-list)
-(setq yas/prompt-functions '(yas/dropdown-prompt
-                             yas/ido-prompt
-                             yas/completing-prompt))
