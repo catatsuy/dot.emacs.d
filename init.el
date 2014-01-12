@@ -38,7 +38,6 @@
     auto-complete
     foreign-regexp
     emmet-mode
-    multi-web-mode
     auto-highlight-symbol
     highlight-symbol
     slim-mode
@@ -46,7 +45,6 @@
     tangotango-theme
     ssh-config-mode
     smarty-mode
-    paredit
     go-mode
     go-autocomplete
     smartrep
