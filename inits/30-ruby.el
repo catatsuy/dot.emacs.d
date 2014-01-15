@@ -5,6 +5,9 @@
 (add-to-list 'auto-mode-alist '("Capfile$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode))
 
+;; マジックコメントを無効にする
+(setq ruby-insert-encoding-magic-comment nil)
+
 (when (require 'ruby-mode nil t)
   (defun my/ruby-mode-hook-function ()
     (setq ruby-deep-indent-paren-style nil)
