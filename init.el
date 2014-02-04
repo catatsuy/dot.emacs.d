@@ -52,6 +52,7 @@
     multiple-cursors
     jade-mode
     coffee-mode
+    haml-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
