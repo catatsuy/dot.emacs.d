@@ -24,9 +24,7 @@
     ruby-block
     google-c-style
     yaml-mode
-    flymake-easy
-    flymake-ruby
-    flymake-jslint
+    flycheck
     exec-path-from-shell
     yasnippet
     dropdown-list

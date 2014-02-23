@@ -52,3 +52,7 @@
 ;;; window の移動
 (global-set-key (kbd "C-z") 'other-window-or-split)
 (global-set-key (kbd "C-S-z") 'previous-multiframe-window)
+
+(smartrep-define-key
+    global-map "M-g" '(("M-n" . 'flycheck-next-error)
+                       ("M-p" . 'flycheck-previous-error)))
