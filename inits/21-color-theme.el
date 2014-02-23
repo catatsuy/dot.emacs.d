@@ -1,1 +1,1 @@
-(load-theme 'tangotango t)
+(load-theme 'zenburn t)

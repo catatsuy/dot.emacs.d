@@ -40,7 +40,7 @@
     highlight-symbol
     slim-mode
     apache-mode
-    tangotango-theme
+    zenburn-theme
     ssh-config-mode
     smarty-mode
     go-mode
