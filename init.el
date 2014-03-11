@@ -51,6 +51,7 @@
     jade-mode
     coffee-mode
     haml-mode
+    dash-at-point
     ))
 
 (let ((not-installed (loop for x in installing-package-list
