@@ -3,7 +3,16 @@
 
 ＊要 Emacs24 以上
 
-    git clone git://github.com/catatsuy/dot.emacs.d.git .emacs.d
+    git clone git://github.com/catatsuy/dot.emacs.d.git ~/.emacs.d
+
+
+## 設計思想
+
+ * [init-loader.el と package.el を導入して快適 Emacs ライフ - Qiita](http://qiita.com/catatsuy/items/5f1cd86e2522fd3384a0)
+ * [これが今の私の Emacs の設定です - Qiita](http://qiita.com/catatsuy/items/55d50d13ebc965e5f31e)
+
+
+## elisp の追加
 
 elisp を追加したい時は `site-lisp` に突っ込むか `package.el` で入れる
 
@@ -16,9 +25,3 @@ elisp を追加したい時は `site-lisp` に突っ込むか `package.el` で�
 * [YaTeX](http://www.yatex.org/)
 * [Typescript](http://blogs.msdn.com/b/interoperability/archive/2012/10/01/sublime-text-vi-emacs-typescript-enabled.aspx)
 * [ibus.el](http://www11.atwiki.jp/s-irie/pages/21.html) （Linux 環境のみ）
-
-どちらも Ubuntu なら `apt-get` で入れられるが `site-lisp` に入れるだけなので大して変わらない
-
-機能を追加したい時は適当に番号を付けて inits ディレクトリ以下に追加する
-
-環境依存のものも追加できる
