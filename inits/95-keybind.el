@@ -57,3 +57,7 @@
 (smartrep-define-key
     global-map "M-g" '(("M-n" . 'flycheck-next-error)
                        ("M-p" . 'flycheck-previous-error)))
+
+;; dash (cocoa-emacs only)
+(global-set-key (kbd "C-c d") 'dash-at-point)
+(global-set-key (kbd "C-c e") 'dash-at-point-with-docset)
