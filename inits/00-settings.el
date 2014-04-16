@@ -56,3 +56,9 @@
 
 ;; カーソルの位置が何行目かを表示する
 (line-number-mode t)
+
+;; 通常のウィンドウで行を折り返さない
+(setq-default truncate-lines t)
+
+;; ウィンドウを左右に分割したときに行を折り返さない
+(setq-default truncate-partial-width-windows t)
