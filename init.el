@@ -52,6 +52,7 @@
     coffee-mode
     haml-mode
     dash-at-point
+    enh-ruby-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list

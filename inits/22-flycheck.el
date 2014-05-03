@@ -1,4 +1,4 @@
-(add-hook 'ruby-mode-hook 'flycheck-mode)
+(add-hook 'enh-ruby-mode-hook 'flycheck-mode)
 (add-hook 'js2-mode-hook 'flycheck-mode)
 (add-hook 'php-mode-hook 'flycheck-mode)
 (add-hook 'slim-mode-hook 'flycheck-mode)

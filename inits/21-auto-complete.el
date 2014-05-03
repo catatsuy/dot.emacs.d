@@ -23,7 +23,7 @@
                                        'ac-source-symbols t)))
 
 ;; ruby-mode の設定
-(add-hook 'ruby-mode-hook (lambda () (add-to-list
+(add-hook 'enh-ruby-mode-hook (lambda () (add-to-list
                                  'ac-sources
                                  'ac-source-abbrev)))
 
