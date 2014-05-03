@@ -53,6 +53,7 @@
     haml-mode
     dash-at-point
     enh-ruby-mode
+    yard-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
