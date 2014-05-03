@@ -31,6 +31,7 @@
 (setq popup-use-optimized-column-computation nil)
 
 ;; あるモードでも動くように
+(add-to-list 'ac-modes 'enh-ruby-mode)
 (add-to-list 'ac-modes 'yatex-mode)
 (add-to-list 'ac-modes 'markdown-mode)
 (add-to-list 'ac-modes 'js2-mode)
