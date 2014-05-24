@@ -54,6 +54,7 @@
     dash-at-point
     enh-ruby-mode
     yard-mode
+    lua-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
