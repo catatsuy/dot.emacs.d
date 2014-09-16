@@ -1,3 +1,6 @@
+;; go get code.google.com/p/go.tools/cmd/goimports
+(setq gofmt-command "goimports")
+
 (add-hook 'go-mode-hook
           '(lambda()
              (setq c-basic-offset 4)
