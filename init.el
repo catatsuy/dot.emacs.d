@@ -25,7 +25,6 @@
     yaml-mode
     flycheck
     exec-path-from-shell
-    yasnippet
     dropdown-list
     migemo
     open-junk-file
