@@ -15,17 +15,6 @@
 (global-set-key (kbd "C-,") 'er/expand-region)
 (global-set-key (kbd "C-M-,") 'er/contract-region)
 
-;; highlight-symbol
-(global-unset-key (kbd "M-q"))
-(smartrep-define-key
-    global-map "M-q" '(("M-q" . 'highlight-symbol-next)
-                       ("h"   . 'highlight-symbol-at-point)
-                       ("n"   . 'highlight-symbol-next)
-                       ("p"   . 'highlight-symbol-prev)
-                       ("o"   . 'highlight-symbol-occur)
-                       ("d"   . 'highlight-symbol-remove-all)
-                       ("r"   . 'highlight-symbol-query-replace)))
-
 ;; multiple-cursors
 (global-set-key (kbd "<C-M-return>") 'mc/edit-lines)
 (smartrep-define-key
@@ -46,17 +35,9 @@
 ;;; C-x C-b をつぶす
 (global-set-key (kbd "C-x C-b") 'buffer-menu)
 
-;; look で英単語を探す
-(global-set-key (kbd "M-h") 'ac-complete-look)
-
 ;;; window の移動
 (global-set-key (kbd "C-z") 'other-window-or-split)
 (global-set-key (kbd "C-S-z") 'previous-multiframe-window)
-
-;; flychek
-(smartrep-define-key
-    global-map "M-g" '(("M-n" . 'flycheck-next-error)
-                       ("M-p" . 'flycheck-previous-error)))
 
 ;; dash (cocoa-emacs only)
 (global-set-key (kbd "C-c d") 'dash-at-point)
