@@ -47,7 +47,6 @@
     go-autocomplete
     smartrep
     expand-region
-    multiple-cursors
     jade-mode
     coffee-mode
     haml-mode
