@@ -52,6 +52,7 @@
     enh-ruby-mode
     yard-mode
     lua-mode
+    rainbow-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
