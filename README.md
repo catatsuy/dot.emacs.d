@@ -20,9 +20,10 @@ Go 自体の設定は終わっていること前提
     go get code.google.com/p/rog-go/exp/cmd/godef
     go get github.com/nsf/gocode
 
-## Markdown の設定
+## 必要なnpm
 
     npm install -g gh-markdown-cli
+    npm install -g js-beautify
 
 ## elisp の追加
 

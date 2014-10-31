@@ -53,6 +53,7 @@
     yard-mode
     lua-mode
     rainbow-mode
+    web-beautify
     ))
 
 (let ((not-installed (loop for x in installing-package-list
