@@ -54,6 +54,7 @@
     lua-mode
     rainbow-mode
     web-beautify
+    json-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
