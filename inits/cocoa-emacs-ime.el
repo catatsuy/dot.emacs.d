@@ -9,7 +9,7 @@
 
 ;; emacs 起動時は英数モードから始める
 (add-hook 'after-init-hook 'mac-change-language-to-us)
- 
+
 ;; backslash を優先
 (mac-translate-from-yen-to-backslash)
 
