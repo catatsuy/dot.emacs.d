@@ -56,6 +56,7 @@
     web-beautify
     json-mode
     dockerfile-mode
+    rust-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
