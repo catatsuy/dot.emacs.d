@@ -57,6 +57,7 @@
     json-mode
     dockerfile-mode
     rust-mode
+    neotree
     ))
 
 (let ((not-installed (loop for x in installing-package-list
