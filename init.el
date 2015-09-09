@@ -32,7 +32,6 @@
     popwin
     google-translate
     auto-complete
-    foreign-regexp
     emmet-mode
     auto-highlight-symbol
     highlight-symbol
