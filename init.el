@@ -57,6 +57,8 @@
     dockerfile-mode
     rust-mode
     neotree
+    visual-regexp-steroids
+    pcre2el
     ))
 
 (let ((not-installed (loop for x in installing-package-list

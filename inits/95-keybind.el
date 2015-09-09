@@ -45,3 +45,8 @@
 
 ;; neotree
 (global-set-key [f8] 'neotree-toggle)
+
+;; visual-regexp-steroids
+(global-set-key (kbd "M-%") 'vr/query-replace)
+(global-set-key (kbd "C-M-r") 'vr/isearch-backward)
+(global-set-key (kbd "C-M-s") 'vr/isearch-forward)
