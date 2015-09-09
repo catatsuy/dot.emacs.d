@@ -6,6 +6,6 @@
 ;; Settings in certain project
 (add-hook 'js2-mode-hook
           (lambda ()
-            (when (string-match "/ssh:p006:.*/.*\\.js"
+            (when (string-match "/scp:pixiv-dev:.*/.*\\.js"
                                 (or (buffer-file-name) ""))
               (setq tab-width 2 indent-tabs-mode t))))
