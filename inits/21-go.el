@@ -9,3 +9,6 @@
              ))
 
 (add-hook 'before-save-hook 'gofmt-before-save)
+
+;; ego
+(setq auto-mode-alist (cons '("\\.ego$" . html-mode) auto-mode-alist))
