@@ -1,6 +1,9 @@
 ;; cf: http://qiita.com/0x60df/items/e12544d2699eedbf36e1
 (icomplete-mode 1)
 
+(setq read-buffer-completion-ignore-case t)
+(setq read-file-name-completion-ignore-case t)
+
 ;; ミニバッファで補完を行いたくないコマンドのリスト
 (defvar icomplete-exceptional-command-list
   '(dired-create-directory
