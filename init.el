@@ -42,7 +42,6 @@
     smarty-mode
     go-mode
     go-autocomplete
-    smartrep
     expand-region
     jade-mode
     coffee-mode
