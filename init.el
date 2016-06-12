@@ -58,6 +58,7 @@
     neotree
     visual-regexp-steroids
     pcre2el
+    editorconfig
     ))
 
 (let ((not-installed (loop for x in installing-package-list
