@@ -59,6 +59,7 @@
     visual-regexp-steroids
     pcre2el
     editorconfig
+    nlinum
     ))
 
 (let ((not-installed (loop for x in installing-package-list

@@ -43,19 +43,11 @@
 ;; シンボリックリンクを開くときの質問省略
 (setq vc-follow-symlinks t)
 
-;; linum-mode をいじって Emacs を高速化
-(setq linum-delay t)
-(defadvice linum-schedule (around my-linum-schedule () activate)
-  (run-with-idle-timer 0.2 nil #'linum-update-current))
-
 ;; スクロール時の移動量を1に
 (setq scroll-step 1)
 
 ;; カーソルの位置が何文字目かを表示する
 (column-number-mode t)
-
-;; カーソルの位置が何行目かを表示する
-(line-number-mode t)
 
 ;; 通常のウィンドウで行を折り返さない
 (setq-default truncate-lines t)
