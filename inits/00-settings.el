@@ -43,6 +43,11 @@
 ;; シンボリックリンクを開くときの質問省略
 (setq vc-follow-symlinks t)
 
+;; linum-mode をいじって Emacs を高速化
+(setq linum-delay t)
+(defadvice linum-schedule (around my-linum-schedule () activate)
+  (run-with-idle-timer 0.2 nil #'linum-update-current))
+
 ;; スクロール時の移動量を1に
 (setq scroll-step 1)
 
