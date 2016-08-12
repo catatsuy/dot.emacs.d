@@ -12,7 +12,7 @@
 (put 'downcase-region 'disabled nil)
 
 ;; expand-region
-(global-set-key (kbd "C-^") 'er/expand-region)
+(global-set-key (kbd "M-a") 'er/expand-region)
 
 ;; open-junk
 (global-set-key (kbd "C-x j") 'open-junk-file)
