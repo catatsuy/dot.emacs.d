@@ -30,7 +30,6 @@
     open-junk-file
     recentf-ext
     popwin
-    google-translate
     auto-complete
     emmet-mode
     auto-highlight-symbol

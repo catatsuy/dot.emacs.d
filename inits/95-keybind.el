@@ -20,10 +20,6 @@
 ;; recentf
 (global-set-key (kbd "C-x C-r") 'recentf-open-files)
 
-;; Google Translate
-(global-set-key (kbd "C-x t") 'google-translate-at-point)
-(global-set-key (kbd "C-x T") 'google-translate-query-translate)
-
 ;;; C-x C-b をつぶす
 (global-set-key (kbd "C-x C-b") 'buffer-menu)
 
