@@ -58,6 +58,7 @@
     visual-regexp-steroids
     pcre2el
     editorconfig
+    smex
     ))
 
 (let ((not-installed (loop for x in installing-package-list
