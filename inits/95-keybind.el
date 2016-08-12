@@ -23,10 +23,6 @@
 ;;; C-x C-b をつぶす
 (global-set-key (kbd "C-x C-b") 'buffer-menu)
 
-;;; window の移動
-(global-set-key (kbd "C-z") 'other-window-or-split)
-(global-set-key (kbd "C-S-z") 'previous-multiframe-window)
-
 ;; dash (cocoa-emacs only)
 (global-set-key (kbd "C-c d") 'dash-at-point)
 (global-set-key (kbd "C-c e") 'dash-at-point-with-docset)
