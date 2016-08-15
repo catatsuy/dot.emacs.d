@@ -12,7 +12,7 @@
 (put 'downcase-region 'disabled nil)
 
 ;; expand-region
-(global-set-key (kbd "M-a") 'er/expand-region)
+(global-set-key (kbd "M-m") 'er/expand-region)
 
 ;; open-junk
 (global-set-key (kbd "C-x j") 'open-junk-file)
@@ -21,7 +21,7 @@
 (global-set-key (kbd "C-x C-r") 'recentf-open-files)
 
 ;;; C-x C-b をつぶす
-(global-set-key (kbd "C-x C-b") 'buffer-menu)
+(global-set-key (kbd "C-x C-b") 'ido-switch-buffer)
 
 ;; dash (cocoa-emacs only)
 (global-set-key (kbd "C-c d") 'dash-at-point)
