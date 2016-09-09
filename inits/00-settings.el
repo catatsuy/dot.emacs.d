@@ -59,3 +59,6 @@
 
 ;; ウィンドウを左右に分割したときに行を折り返さない
 (setq-default truncate-partial-width-windows t)
+
+;; 特別に長い行があっても現在の行番号を知りたい
+(setq line-number-display-limit-width 10000)
