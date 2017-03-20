@@ -16,7 +16,6 @@
     ;; ここに使っているパッケージを書く。
     init-loader
     php-mode
-    scala-mode2
     markdown-mode
     scss-mode
     haskell-mode
