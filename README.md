@@ -17,13 +17,8 @@
 Go 自体の設定は終わっていること前提
 
     go get golang.org/x/tools/cmd/goimports
-    go get code.google.com/p/rog-go/exp/cmd/godef
+    go get github.com/rogpeppe/godef
     go get github.com/nsf/gocode
-
-## 必要なnpm
-
-    npm install -g gh-markdown-cli
-    npm install -g js-beautify
 
 ## elisp の追加
 
@@ -35,6 +30,5 @@ elisp を追加したい時は `site-lisp` に突っ込むか `package.el` で�
 
 入れられないものは手動で入れる
 
-  * [YaTeX](http://www.yatex.org/)
-  * [Typescript](http://blogs.msdn.com/b/interoperability/archive/2012/10/01/sublime-text-vi-emacs-typescript-enabled.aspx)
-  * [ibus.el](http://www11.atwiki.jp/s-irie/pages/21.html) （Linux 環境のみ）
+  * [YaTeX](https://www.yatex.org/)
+  * [Typescript](https://blogs.msdn.microsoft.com/interoperability/2012/10/01/sublime-text-vi-emacs-typescript-enabled/)
