@@ -28,7 +28,7 @@
 (global-set-key (kbd "C-c e") 'dash-at-point-with-docset)
 
 ;; neotree
-(global-set-key [f8] 'neotree-toggle)
+(global-set-key (kbd "C-c n") 'neotree-toggle)
 
 ;; visual-regexp-steroids
 (global-set-key (kbd "M-%") 'vr/query-replace)
