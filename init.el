@@ -40,6 +40,7 @@
     smarty-mode
     go-mode
     go-autocomplete
+    golint
     expand-region
     jade-mode
     coffee-mode
