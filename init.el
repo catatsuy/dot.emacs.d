@@ -25,7 +25,6 @@
     flycheck
     exec-path-from-shell
     dropdown-list
-    migemo
     open-junk-file
     recentf-ext
     popwin

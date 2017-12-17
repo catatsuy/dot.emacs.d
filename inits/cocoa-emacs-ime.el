@@ -18,5 +18,5 @@
 ;; minibuffer 内は英数モードにする
 (add-hook 'minibuffer-setup-hook 'mac-change-language-to-us)
 
-;; [migemo]isearch のとき IME を英数モードにする
-(add-hook 'isearch-mode-hook 'mac-change-language-to-us)
+;; isearch のとき IME を英数モードにする
+;; (add-hook 'isearch-mode-hook 'mac-change-language-to-us)
