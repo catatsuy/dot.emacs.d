@@ -56,7 +56,6 @@
     pcre2el
     editorconfig
     smex
-    scala-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list

@@ -9,8 +9,6 @@
              (add-hook 'before-save-hook 'gofmt-before-save)
              ))
 
-(add-hook 'go-mode-hook 'flycheck-mode)
-
 (require 'golint)
 
 ;; ego
