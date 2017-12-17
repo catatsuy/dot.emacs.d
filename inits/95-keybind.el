@@ -23,10 +23,6 @@
 ;;; C-x C-b をつぶす
 (global-set-key (kbd "C-x C-b") 'ido-switch-buffer)
 
-;; dash (cocoa-emacs only)
-(global-set-key (kbd "C-c d") 'dash-at-point)
-(global-set-key (kbd "C-c e") 'dash-at-point-with-docset)
-
 ;; neotree
 (global-set-key (kbd "C-c n") 'neotree-toggle)
 

@@ -44,7 +44,6 @@
     jade-mode
     coffee-mode
     haml-mode
-    dash-at-point
     enh-ruby-mode
     yard-mode
     lua-mode
