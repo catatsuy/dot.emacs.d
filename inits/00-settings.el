@@ -21,7 +21,7 @@
   (c-set-style "linux")
   (setq c-basic-offset tab-width))
 (add-hook 'c-mode-hook 'my-c-mode-hook)
-(setq-default tab-width 4 indent-tabs-mode nil)
+(setq-default tab-width 2 indent-tabs-mode nil)
 
 ;; 対応する括弧をハイライト
 (setq show-paren-delay 0)
