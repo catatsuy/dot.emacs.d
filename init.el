@@ -24,7 +24,6 @@
     yaml-mode
     flycheck
     exec-path-from-shell
-    dropdown-list
     open-junk-file
     recentf-ext
     popwin
