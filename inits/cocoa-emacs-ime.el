@@ -20,3 +20,7 @@
 
 ;; isearch のとき IME を英数モードにする
 ;; (add-hook 'isearch-mode-hook 'mac-change-language-to-us)
+
+;; 日本語入力時でもC-x系を使えるようにする
+;; cf: https://qiita.com/takaxp/items/a86ee2aacb27c7c3a902
+(mac-auto-ascii-mode 1)
