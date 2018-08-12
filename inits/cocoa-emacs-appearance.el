@@ -8,3 +8,6 @@
  (frame-parameter nil 'font)
  'japanese-jisx0212
  '("Hiragino Kaku Gothic ProN" . "unicode-bmp"))
+
+;; タイトルバーをファイル名にする
+(setq frame-title-format (format (if (buffer-file-name) "%%f" "%%b")))
