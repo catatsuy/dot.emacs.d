@@ -5,7 +5,7 @@
       (normal-top-level-add-subdirs-to-load-path)))
 
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "https://melpa.milkbox.net/packages/"))
+(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/"))
 (package-initialize)
 
@@ -55,6 +55,7 @@
     pcre2el
     editorconfig
     smex
+    terraform-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
