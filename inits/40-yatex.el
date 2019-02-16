@@ -18,8 +18,3 @@
 ; sectionの階層が変化する時の色の変化の割合（パーセント）
 ;(setq YaTeX-hilit-sectioning-attenuation-rate '(light時の割合/dark時の割合))
 (setq YaTeX-hilit-sectioning-attenuation-rate '(0 0))
-
-;; flyspell-mode 起動
-;; (add-hook 'yatex-mode-hook 'flyspell-mode)
-;; (custom-set-variables
-;; '(flyspell-auto-correct-binding [(control ?\:)]))

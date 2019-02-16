@@ -18,7 +18,6 @@
     php-mode
     markdown-mode
     scss-mode
-    haskell-mode
     js2-mode
     google-c-style
     yaml-mode
@@ -41,7 +40,6 @@
     golint
     expand-region
     jade-mode
-    coffee-mode
     haml-mode
     enh-ruby-mode
     yard-mode

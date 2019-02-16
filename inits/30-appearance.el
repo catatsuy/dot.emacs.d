@@ -1,9 +1,7 @@
 ;; Menuを隠す
-(custom-set-variables
- '(display-time-mode t)
- '(tool-bar-mode nil)
- '(transient-mark-mode t))
-(custom-set-faces)
+(display-time-mode t)
+(tool-bar-mode -1)
+(transient-mark-mode t)
 
 ;; スクロールバーを消す
 (toggle-scroll-bar nil)
