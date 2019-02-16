@@ -1,7 +1,4 @@
-.emacs.d
-==================================
-
-＊要 Emacs24 以上
+# .emacs.d
 
     git clone https://github.com/catatsuy/dot.emacs.d.git ~/.emacs.d
 
@@ -24,11 +21,6 @@ Go 自体の設定は終わっていること前提
 
 elisp を追加したい時は `site-lisp` に突っ込むか `package.el` で入れる
 
-`package.el` で入れられるものは必ずこちらでいれて `init.el` に書いておく
-
-`M-x package-list-packages` とやると一覧が見れて `i` で選択， `x` を押すとインストールできる
-
 入れられないものは手動で入れる
 
   * [YaTeX](https://www.yatex.org/)
-  * [Typescript](https://blogs.msdn.microsoft.com/interoperability/2012/10/01/sublime-text-vi-emacs-typescript-enabled/)
