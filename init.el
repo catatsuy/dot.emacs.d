@@ -66,4 +66,8 @@
 
 (require 'init-loader)
 (setq init-loader-show-log-after-init nil)
+
+;; cf: https://qiita.com/sambatriste/items/aee6e1d91099f533499d
+(setq custom-file (locate-user-emacs-file "custom.el"))
+
 (init-loader-load "~/.emacs.d/inits")
