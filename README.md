@@ -13,9 +13,9 @@
 
 Go 自体の設定は終わっていること前提
 
-    go get golang.org/x/tools/cmd/goimports
-    go get github.com/rogpeppe/godef
-    go get github.com/nsf/gocode
+    go get -u golang.org/x/tools/cmd/goimports
+    go get -u github.com/rogpeppe/godef
+    go get -u golang.org/x/lint/golint
 
 ## elisp の追加
 
