@@ -1,6 +1,8 @@
 # .emacs.d
 
     git clone https://github.com/catatsuy/dot.emacs.d.git ~/.emacs.d
+    # or
+    git clone ssh://github.com/catatsuy/dot.emacs.d.git ~/.emacs.d
 
 
 ## 設計思想
