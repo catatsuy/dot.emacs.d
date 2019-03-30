@@ -5,7 +5,7 @@
       (normal-top-level-add-subdirs-to-load-path)))
 
 (require 'package)
-(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/"))
 (package-initialize)
 
@@ -15,6 +15,7 @@
   '(
     ;; ここに使っているパッケージを書く。
     init-loader
+    lsp-mode
     php-mode
     markdown-mode
     scss-mode
@@ -36,7 +37,6 @@
     ssh-config-mode
     smarty-mode
     go-mode
-    go-autocomplete
     golint
     expand-region
     jade-mode
