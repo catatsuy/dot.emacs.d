@@ -15,9 +15,13 @@
 
 Go 自体の設定は終わっていること前提
 
-    go get -u golang.org/x/tools/cmd/goimports
-    go get -u github.com/rogpeppe/godef
-    go get -u golang.org/x/lint/golint
+```
+go get -u golang.org/x/tools/cmd/goimports
+go get -u github.com/rogpeppe/godef
+go get -u golang.org/x/lint/golint
+go get -u github.com/kisielk/errcheck
+go get -u honnef.co/go/tools/cmd/staticcheck
+```
 
 ## elisp の追加
 
