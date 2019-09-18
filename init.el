@@ -16,6 +16,7 @@
     ;; ここに使っているパッケージを書く。
     init-loader
     lsp-mode
+    lsp-ui
     php-mode
     markdown-mode
     scss-mode
