@@ -12,7 +12,7 @@
 
 (when (fboundp 'mac-input-source)
     (defun my:mac-keyboard-input-source ()
-      (if (string-match "\\.\\(Roman\\|US\\)$" (mac-input-source))
+      (if (string-match "\\.\\(Roman\\|ABC\\|US\\)$" (mac-input-source))
           (progn
             (setq cursor-type my:cursor-type-ime-off)
             (add-to-list 'default-frame-alist
@@ -42,7 +42,7 @@
 (defvar mac-win-last-ime-status 'off) ;; {'off|'on}
 (defun mac-win-save-last-ime-status ()
   (setq mac-win-last-ime-status
-        (if (string-match "\\.\\(Roman\\|US\\)$" (mac-input-source))
+        (if (string-match "\\.\\(Roman\\|ABC\\|US\\)$" (mac-input-source))
             'off 'on)))
 
 (defun mac-win-restore-ime ()
