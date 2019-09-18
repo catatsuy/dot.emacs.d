@@ -1,3 +1,3 @@
 ;; indent
 (add-hook 'sh-mode-hook '(lambda () (interactive)
-                           (setq sh-basic-offset 2 sh-indentation 2)))
+                           (setq sh-basic-offset 4 sh-indentation 4)))
