@@ -39,6 +39,7 @@
     smarty-mode
     go-mode
     golint
+    git-link
     expand-region
     jade-mode
     haml-mode
