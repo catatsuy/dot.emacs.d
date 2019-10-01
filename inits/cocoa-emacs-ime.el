@@ -74,4 +74,4 @@
 
 ;; 自動で ASCII入力から日本語入力に引き戻したい関数（デフォルト設定）
 (defvar mac-win-target-commands
-  '(find-file save-buffer other-window delete-window split-window mark-whole-buffer))
+  '(find-file save-buffer other-window delete-window split-window mark-whole-buffer delete-backward-char backward-delete-char-untabify markdown-outdent-or-delete))
