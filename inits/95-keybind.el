@@ -2,9 +2,6 @@
 ;; (global-set-key (kbd "C-h") 'backward-delete-char)
 (define-key key-translation-map (kbd "C-h") (kbd "<DEL>"))
 
-;; 行番号を指定して移動する機能をM-zに割り当て
-(global-set-key (kbd "M-z") 'goto-line)
-
 ;; ESC 連打で無効化
 (global-set-key (kbd "M-ESC ESC") 'keyboard-quit)
 
